@@ -23,7 +23,7 @@
                         name="password"
                         class="form-control form-control-lg
                                         <?php echo (!empty($data['password_err'])) ? 'is-invalid' : ''; ?>"
-                        value="<?php echo $data['password_err']; ?>">
+                        value="<?php echo $data['password']; ?>">
                     <span class="invalid-feedback"><?php echo $data['password_err']; ?></span>
                 </div>
                 <div class="row">
